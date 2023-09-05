@@ -33,6 +33,11 @@ header h1 {
     color: #333; /* Color de texto */
 }
 
+/* Estilo para la sección de experiencia */
+#experiencia {
+    min-width: 500px; /* Ancho mínimo */
+}
+
 /* Estilo para el título */
 header p {
     font-size: 1.5rem;
