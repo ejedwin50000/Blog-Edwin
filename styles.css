@@ -1,0 +1,95 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Estilo para el nombre */
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    padding: 10px;
+    color: #333; /* Color de texto */
+}
+
+/* Estilo para el título */
+header p {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px;
+    color: #666; /* Color de texto secundario */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    background-color: #fff; /* Color de fondo de las secciones */
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: center; /* Centro de la información en las secciones */
+}
+
+/* Estilo para los títulos de sección */
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Estilo para las listas */
+ul {
+    list-style-type: none; /* Eliminar los marcadores de lista */
+    padding-left: 0; /* Eliminar el espaciado predeterminado */
+}
+
+/* Estilo para los elementos de lista */
+li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: inline-block; /* Alinear horizontalmente los elementos de lista */
+    margin-right: 20px; /* Espaciado entre elementos de lista */
+}
+
+/* Estilo para las imágenes de redes sociales */
+ul li a img {
+    width: 30px;
+    vertical-align: middle;
+}
+
+/* Media Query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+@media screen and (max-width: 768px) {
+    header {
+        height: 200px; /* Ajustar la altura del encabezado para pantallas más pequeñas */
+    }
+    header h1 {
+        font-size: 2rem; /* Tamaño de fuente más pequeño para pantallas más pequeñas */
+    }
+    header p {
+        font-size: 1.2rem; /* Tamaño de fuente más pequeño para pantallas más pequeñas */
+    }
+    section {
+        padding: 10px; /* Reducir el espaciado en pantallas más pequeñas */
+    }
+}
