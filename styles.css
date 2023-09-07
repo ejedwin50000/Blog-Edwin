@@ -34,8 +34,25 @@ header h1 {
 }
 
 /* Estilo para la sección de experiencia */
-#experiencia {
-    min-width: 500px; /* Ancho mínimo */
+#experiencia, #proyectos, #contacto {
+    max-width: 800px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno para mejor apariencia */
+}
+
+#experiencia  p {
+    text-align: justify;
+}
+
+#habilidades {
+    max-width: 800px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+#habilidades ul {
+    max-width: 800px; /* Ancho máximo deseado */
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: start;
+
 }
 
 /* Estilo para el título */
@@ -43,8 +60,9 @@ header p {
     font-size: 1.5rem;
     margin: 0;
     padding: 10px;
-    color: #666; /* Color de texto secundario */
+    color: #700a0a; /* Color de texto secundario */
 }
+
 
 /* Estilos para las secciones */
 section {
