@@ -43,21 +43,44 @@
         <!-- Descripción de la experiencia -->
         <p>Con más de [X años] de experiencia como ingeniero en sistemas, he trabajado en una variedad de proyectos emocionantes. He colaborado con startups locales y empresas internacionales, lo que me ha brindado la oportunidad de aprender y crecer constantemente.</p>
     </section>
-
-    <section id="proyectos">
+    <section>
         <h2>Proyectos Destacados</h2>
-        <!-- Detalles de proyectos destacados -->
-        <div class="proyecto">
-            <h3>Proyecto 1</h3>
-            <p>Descripción del proyecto 1. [Añadir logros y resultados destacados]</p>
-            <img src="tu_imagen_de_presentacion.jpg" alt="Texto alternativo">
-        </div>
-        <div class="proyecto">
-            <h3>Proyecto 2</h3>
-            <p>Descripción del proyecto 2. [Añadir logros y resultados destacados]</p>
-        </div>
+        <section class="seccion-proyectos" id="proyectos-uno">
+            <!-- Detalles de proyectos destacados -->
+            <div class="proyecto">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto 1. [Añadir logros y resultados destacados]</p>
+                <img src="./img/python-basico.png" alt="python-basico">
+            </div>
+
+            <!-- Detalles de proyectos destacados -->
+            <div class="proyecto">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto 1. [Añadir logros y resultados destacados]</p>
+                <img src="./img/python-basico.png" alt="python-basico">
+            </div>
+            <!-- Detalles de proyectos destacados -->
+            <div class="proyecto">
+                <h3>Proyecto 3</h3>
+                <p>Descripción del proyecto 1. [Añadir logros y resultados destacados]</p>
+                <img src="./img/python-basico.png" alt="python-basico">
+            </div>
+        </section>
     </section>
 
+    <section class="comentario">
+        <!-- Sección de comentarios -->
+        <div class="comentarios">
+            <h2 class="titulo-comentarios">Comentarios</h2>
+            <ul id="lista-comentarios" class="lista-comentarios">
+                <!-- Los comentarios se mostrarán aquí -->
+            </ul>
+            <textarea id="nuevo-comentario" class="input-comentario" placeholder="Agrega un comentario"></textarea>
+            <button class="boton-comentario" onclick="agregarComentario()">Agregar Comentario</button>
+        </div>
+        <script src="script.js"></script>
+    </section>
+    
 
 </body>
 </html>

@@ -73,6 +73,26 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
     text-align: center; /* Centro de la información en las secciones */
 }
+#proyectos-uno {
+    display: flex; /* Establece un diseño de estilo flexbox en la sección */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos (opcional) */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola fila */
+}
+
+.proyecto {
+    border: 1px solid #ccc; /* Borde opcional alrededor de cada proyecto */
+    padding: 10px; /* Espaciado interno (opcional) */
+    text-align: center; /* Alinea el contenido en el centro horizontalmente */
+    flex: 0 0 calc(33.33% - 20px); /* Divide en 3 columnas con espacio entre ellas */
+    margin: 10px; /* Espacio entre los proyectos (opcional) */
+}
+
+.proyecto img {
+    max-width: 100%; /* Establece un ancho máximo para las imágenes */
+    height: auto; /* Mantiene la relación de aspecto original de las imágenes */
+}
+
 
 /* Estilo para los títulos de sección */
 h2 {
@@ -100,6 +120,42 @@ ul li a img {
     width: 30px;
     vertical-align: middle;
 }
+
+.comentario {
+    background-color: #f0f0f0; /* Color de fondo de la sección */
+    padding: 20px; /* Espaciado interno de la sección */
+}
+
+.titulo-comentarios {
+    font-size: 24px; /* Tamaño de fuente del título */
+    color: #333; /* Color del texto del título */
+    text-align: center; /* Alineación horizontal del título */
+}
+
+.lista-comentarios {
+    list-style: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el espaciado interno de la lista */
+}
+
+.input-comentario {
+    width: 100%; /* Ancho del cuadro de texto */
+    padding: 10px; /* Espaciado interno del cuadro de texto */
+    margin-bottom: 10px; /* Espacio entre el cuadro de texto y el botón */
+    border: 1px solid #ccc; /* Borde del cuadro de texto */
+}
+
+.boton-comentario {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton-comentario:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+}
+
 
 /* Media Query para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
 @media screen and (max-width: 768px) {
